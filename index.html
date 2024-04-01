@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de PORA - Laura Cruz</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="container">
+        <h2>Trabalho de PORA</h2>
+        <form id="questionnaire">
+            <p>1) Em uma entrevista de emprego você:</p>
+            <input type="radio" name="q1" value="pessoal"> Falaria suas qualidades no quesito pessoal e seus sentimentos<br>
+            <input type="radio" name="q1" value="profissional"> Falaria sobre suas qualificações no eixo profissional<br><br>
+    
+            <p>2) Em um trabalho em equipe você:</p>
+            <input type="radio" name="q2" value="seu_jeito"> Você quer tudo do seu jeito e dá a última palavra<br>
+            <input type="radio" name="q2" value="consenso"> Ouve a ideia de todos para chegar a um consenso<br><br>
+    
+            <p>3) Uma pessoa que você não gosta foi indicada para trabalhar com você:</p>
+            <input type="radio" name="q3" value="recusar"> Me recusaria a trabalhar com a pessoa<br>
+            <input type="radio" name="q3" value="educacao"> Aceitaria e trataria com educação<br><br>
+    
+            <p>4) Seu chefe te xingou e brigou com você:</p>
+            <input type="radio" name="q4" value="socar"> Dou um soco nele e saio correndo<br>
+            <input type="radio" name="q4" value="processo"> Abro um processo na justiça por assédio moral<br><br>
+    
+            <p>5) O entrevistador te perguntou sobre a empresa:</p>
+            <input type="radio" name="q5" value="li_tudo"> Eu já li tudo sobre e posso dizer o que acho<br>
+            <input type="radio" name="q5" value="nao_pesquisei"> Eu não pesquisei antes da entrevista<br><br>
+    
+            <button type="button" onclick="avaliar()">Avaliar</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    <footer>© 2024 Luis Guilherme da Cruz. Todos os direitos reservados. </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
